@@ -1,0 +1,147 @@
+# RUN 1
+
+R1|Create IAM Role|: 6.582s
+R2|Update IAM Role|: 2.338s
+G1|Create Log Group|: 6.431s
+G2|Update Log Group|: 6.997s
+F1|Create Lambda Function|: 12.642s
+F2|Update Code of Lambda Function|: 14.386s
+F3|Update Configuration of Lambda Function|: 52.964s
+F4|Update to Original Input of Lambda Function|: 1:00.954 (m:ss.mmm)
+F5|Delete Lambda Function|: 15.389s
+G3|Delete Log Group|: 6.455s
+R3|Delete IAM Role|: 6.375s
+
+# RUN 2
+
+R1|Create IAM Role|: 6.370s
+R2|Update IAM Role|: 1.774s
+G1|Create Log Group|: 6.426s
+G2|Update Log Group|: 7.182s
+F1|Create Lambda Function|: 14.031s
+F2|Update Code of Lambda Function|: 15.586s
+F3|Update Configuration of Lambda Function|: 50.894s
+F4|Update to Original Input of Lambda Function|: 1:02.441 (m:ss.mmm)
+F5|Delete Lambda Function|: 15.728s
+G3|Delete Log Group|: 26.731s
+R3|Delete IAM Role|: 6.414s
+
+
+# RUN 3
+
+R1|Create IAM Role|: 6.545s
+R2|Update IAM Role|: 1.693s
+G1|Create Log Group|: 6.389s
+G2|Update Log Group|: 7.097s
+F1|Create Lambda Function|: 15.953s
+F2|Update Code of Lambda Function|: 13.268s
+F3|Update Configuration of Lambda Function|: 59.468s
+F4|Update to Original Input of Lambda Function|: 1:00.764 (m:ss.mmm)
+F5|Delete Lambda Function|: 14.330s
+G3|Delete Log Group|: 6.476s
+R3|Delete IAM Role|: 6.406s
+
+
+# RUN 4
+
+R1|Create IAM Role|: 6.483s
+R2|Update IAM Role|: 1.887s
+G1|Create Log Group|: 6.397s
+G2|Update Log Group|: 6.869s
+F1|Create Lambda Function|: 14.881s
+F2|Update Code of Lambda Function|: 12.338s
+F3|Update Configuration of Lambda Function|: 49.259s
+F4|Update to Original Input of Lambda Function|: 55.285s
+F5|Delete Lambda Function|: 15.536s
+G3|Delete Log Group|: 6.375s
+R3|Delete IAM Role|: 6.458s
+
+
+# RUN 5
+
+R1|Create IAM Role|: 6.360s
+R2|Update IAM Role|: 1.713s
+G1|Create Log Group|: 6.391s
+G2|Update Log Group|: 7.245s
+F1|Create Lambda Function|: 12.711s
+F2|Update Code of Lambda Function|: 12.992s
+F3|Update Configuration of Lambda Function|: 1:57.053 (m:ss.mmm)
+F4|Update to Original Input of Lambda Function|: 43.743s
+F5|Delete Lambda Function|: 13.798s
+G3|Delete Log Group|: 6.424s
+R3|Delete IAM Role|: 6.391s
+
+
+# RUN 6
+
+R1|Create IAM Role|: 6.531s
+R2|Update IAM Role|: 1.828s
+G1|Create Log Group|: 6.440s
+G2|Update Log Group|: 7.088s
+F1|Create Lambda Function|: 14.857s
+F2|Update Code of Lambda Function|: 16.849s
+F3|Update Configuration of Lambda Function|: 46.372s
+F4|Update to Original Input of Lambda Function|: 47.765s
+F5|Delete Lambda Function|: 15.748s
+G3|Delete Log Group|: 6.415s
+R3|Delete IAM Role|: 6.493s
+
+
+# RUN 7
+
+R1|Create IAM Role|: 6.444s
+R2|Update IAM Role|: 1.738s
+G1|Create Log Group|: 6.307s
+G2|Update Log Group|: 7.580s
+F1|Create Lambda Function|: 15.685s
+F2|Update Code of Lambda Function|: 14.191s
+F3|Update Configuration of Lambda Function|: 1:46.246 (m:ss.mmm)
+F4|Update to Original Input of Lambda Function|: 1:01.385 (m:ss.mmm)
+F5|Delete Lambda Function|: 11.811s
+G3|Delete Log Group|: 6.456s
+R3|Delete IAM Role|: 6.466s
+
+
+# RUN 8
+
+R1|Create IAM Role|: 6.864s
+R2|Update IAM Role|: 2.017s
+G1|Create Log Group|: 6.396s
+G2|Update Log Group|: 7.076s
+F1|Create Lambda Function|: 15.108s
+F2|Update Code of Lambda Function|: 16.251s
+F3|Update Configuration of Lambda Function|: 39.810s
+F4|Update to Original Input of Lambda Function|: 51.441s
+F5|Delete Lambda Function|: 12.561s
+G3|Delete Log Group|: 6.398s
+R3|Delete IAM Role|: 6.381s
+
+
+# RUN 9
+
+R1|Create IAM Role|: 6.506s
+R2|Update IAM Role|: 1.890s
+G1|Create Log Group|: 6.471s
+G2|Update Log Group|: 6.794s
+F1|Create Lambda Function|: 13.448s
+F2|Update Code of Lambda Function|: 16.616s
+F3|Update Configuration of Lambda Function|: 51.255s
+F4|Update to Original Input of Lambda Function|: 43.612s
+F5|Delete Lambda Function|: 11.822s
+G3|Delete Log Group|: 6.367s
+R3|Delete IAM Role|: 6.523s
+
+
+# RUN 10
+
+R1|Create IAM Role|: 27.216s
+R2|Update IAM Role|: 2.623s
+G1|Create Log Group|: 6.403s
+G2|Update Log Group|: 7.590s
+F1|Create Lambda Function|: 12.633s
+F2|Update Code of Lambda Function|: 14.092s
+F3|Update Configuration of Lambda Function|: 1:02.078 (m:ss.mmm)
+F4|Update to Original Input of Lambda Function|: 43.070s
+F5|Delete Lambda Function|: 15.626s
+G3|Delete Log Group|: 6.399s
+R3|Delete IAM Role|: 6.369s

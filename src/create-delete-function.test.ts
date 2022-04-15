@@ -204,21 +204,21 @@ const main = async () => {
   await deleteResource({
     TypeName: "AWS::Lambda::Function",
     Identifier: baseResourceName,
-  });
+  }).catch(console.log);
   console.timeEnd("F5|Delete Lambda Function|");
 
   console.time("G3|Delete Log Group|");
   await deleteResource({
     TypeName: "AWS::Logs::LogGroup",
     Identifier: `/aws/lambda/${baseResourceName}`,
-  });
+  }).catch(console.log);
   console.timeEnd("G3|Delete Log Group|");
 
   console.time("R3|Delete IAM Role|");
   await deleteResource({
     TypeName: "AWS::IAM::Role",
     Identifier: baseResourceName,
-  });
+  }).catch(console.log);
   console.timeEnd("R3|Delete IAM Role|");
 };
 
