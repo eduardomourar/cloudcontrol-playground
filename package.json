@@ -1,0 +1,33 @@
+{
+  "name": "cloudcontrol-playground",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/create-delete-function.test.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudcontrol": "^3.67.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/node": "^16.0.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardomourar/cloudcontrol-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardomourar/cloudcontrol-playground/issues"
+  },
+  "homepage": "https://github.com/eduardomourar/cloudcontrol-playground#readme",
+  "volta": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
+  }
+}
